@@ -1,0 +1,6 @@
+spring:
+  data:
+    elasticsearch:
+      #与Elasticsearch的config中的Elasticsearch.yml配置保持一致
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
